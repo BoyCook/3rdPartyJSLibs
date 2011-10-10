@@ -8,6 +8,11 @@
     <packaging>pom</packaging>
     <description>Javascript Libraries</description>
     <version>1.0.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.cccs.build</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
 	<modules>
 		<module>jquery-1.6.4</module>
 		<module>jquery-ui-1.8.16</module>		
